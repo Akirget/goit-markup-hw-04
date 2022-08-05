@@ -175,10 +175,10 @@ address {
 
 /* Применяем эффект ходор */
 
-.site-nav .link:hover,
+/* .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--accent-color);
-}
+} */
 
 .site-nav .link.current {
     color: var(--accent-color);
@@ -195,6 +195,10 @@ address {
 }
 
 .auth-nav .link {
+    display: inline-flex;
+    padding: 32px 0;
+    align-items: center;
+
     color: var(--primary-text-color);
 
     font-weight: 500;
@@ -204,16 +208,37 @@ address {
 
 }
 
-.auth-nav .link:hover,
+/* .auth-nav .link:hover,
 .auth-nav .link:focus {
     color: var(--accent-color);
+} */
+
+.contact-icon {
+    margin-right: 10px;
+    fill: currentColor;
 }
+
+
+.header-contact:hover,
+.header-contact:focus {
+    color: var(--accent-color);
+}
+
 
 /* Главный герой */
 
 .hero-section {
     padding-top: 200px;
     padding-bottom: 200px;
+    max-width: 1600px;
+    min-height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     text-align: center;
 
     background-color: var(--hero-color-background);
