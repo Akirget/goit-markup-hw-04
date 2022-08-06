@@ -24,6 +24,8 @@
 
 /* Цвет команды #F5F4FA */
 
+/* Цвет иконок #AFB1B8 */
+
 :root {
     --primary-text-color: #757575;
     --title-text-color: #212121;
@@ -34,6 +36,7 @@
     --team-color-background: #F5F4FA;
     --footer-color-background: #2F303A;
     --footer-color-mail: rgba(255, 255, 255, 0.6);
+    --icon-color: #AFB1B8;
     
 }
 
@@ -303,6 +306,16 @@ address {
     width: 270px;
 }
 
+.icon-fon {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    background-color: var(--team-color-background);
+}
+
 .features-item + .features-item {
     margin-left: 30px;
 }
@@ -406,12 +419,96 @@ address {
 }
 
 .team-profession {
-    padding-bottom: 30px;;
+    padding-bottom: 16px;
 
     font-size: 16px;
     line-height: 1.19;
     text-align: center; 
 }
+
+.team-social-contact {
+    display: flex;
+    padding: 0px 32px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.team-social-item {
+    width: 44px;
+    height: 44px;
+    
+}
+
+.team-social-link {
+    width: 44px;
+    height: 44px;
+    display: block;
+    border-radius: 50%;
+
+    fill: var(--icon-color);
+    
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+    background-color: var(--accent-color);
+    fill: var(--white-color);
+}
+
+.team-social-icon {
+    margin: 12px;
+
+}
+
+/* Клиенты */
+
+.client-title {
+    margin-bottom: 50px;
+    
+        color: var(--title-text-color);
+    
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+
+}
+
+.client-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.client-item {
+    width: 170px;
+    height: 90px;
+    
+}
+
+.client-item:not(:last-child) {
+
+    margin-right: 30px;
+}
+
+.client-link {
+    width: 170px;
+    height: 90px;
+    display: block;
+    border: 1px solid var(--icon-color);
+    border-radius: 4px;
+    padding: 16px 32px;
+    fill: var(--icon-color);
+}
+
+.client-link:hover,
+.client-link:focus {
+    fill: var(--accent-color);
+    border: 1px solid var(--accent-color);
+}
+
 
 /* Футер */
 
