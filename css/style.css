@@ -536,11 +536,8 @@ address {
 
     color: var(--white-color);
 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 1.5;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
@@ -550,9 +547,6 @@ address {
 
     color: var(--footer-color-mail);
 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -568,7 +562,56 @@ address {
 
 }
 
+.footer-flex {
+    display: flex;
+    
+}
 
+.footer-social-flex {
+    margin-left: 70px;
+    width: 206px;
+    min-height: 80px;
+}
+
+.footer-social-text {
+        padding: 20px 0px 10px 0px;
+        margin-bottom: 20px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14px;
+        text-transform: uppercase;
+        color: var(--white-color);
+        
+}
+
+.footer-social-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-social-item {
+    width: 44px;
+    height: 44px;
+}
+
+.footer-social-link {
+    display: block;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+    background-color: var(--accent-color);
+}
+
+.footer-social-icon {
+    margin: 12px;
+    fill: var(--white-color);
+}
 
 /*  ---------------------- */
 /* СТИЛИ PORTFOLIO.HTML */
