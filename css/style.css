@@ -280,9 +280,8 @@ address {
 .hero-button:hover,
 .hero-button:focus {
   color: var(--white-color);
-  background-color: #188CE8;
+  background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-
 }
 
 /* Преимущества компании */
@@ -413,9 +412,10 @@ address {
 }
 
 .team-social-contact {
-  display: flex;
   padding: 0px 32px;
   margin-bottom: 30px;
+
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -474,7 +474,9 @@ address {
 .client-link {
   width: 170px;
   height: 90px;
+
   display: block;
+
   border: 1px solid var(--icon-color);
   border-radius: 4px;
   padding: 16px 32px;
@@ -492,6 +494,7 @@ address {
 .footer {
   padding-bottom: 60px;
   padding-top: 60px;
+
   background-color: var(--footer-color-background);
 }
 
@@ -536,6 +539,8 @@ address {
 
 .footer-flex {
   display: flex;
+
+  align-items: baseline;
 }
 
 .footer-social-flex {
@@ -545,11 +550,13 @@ address {
 }
 
 .footer-social-text {
-  padding: 20px 0px 10px 0px;
+  
   margin-bottom: 20px;
+
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
+
   text-transform: uppercase;
   color: var(--white-color);
 }
