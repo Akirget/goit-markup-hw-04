@@ -391,8 +391,11 @@ address {
   margin-left: 30px;
 }
 
+.team-workers {
+  padding: 30px 0px;
+}
+
 .team-player {
-  padding-top: 30px;
   margin-bottom: 10px;
 
   color: var(--title-text-color);
@@ -413,7 +416,6 @@ address {
 
 .team-social-contact {
   padding: 0px 32px;
-  margin-bottom: 30px;
 
   display: flex;
   justify-content: space-between;
@@ -475,11 +477,13 @@ address {
   width: 170px;
   height: 90px;
 
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   border: 1px solid var(--icon-color);
   border-radius: 4px;
-  padding: 16px 32px;
+
   fill: var(--icon-color);
 }
 
@@ -550,7 +554,6 @@ address {
 }
 
 .footer-social-text {
-  
   margin-bottom: 20px;
 
   font-weight: 700;
@@ -640,6 +643,7 @@ address {
 .button-portfolio:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 /* Портфолио работ */
@@ -655,6 +659,16 @@ address {
 
   margin-right: 30px;
   margin-bottom: 30px;
+
+  cursor: pointer;
+}
+
+.portfolio-item:hover,
+.portfolio-item:focus {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-item:nth-child(3n) {
