@@ -430,10 +430,10 @@ address {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   width: 44px;
   height: 44px;
-  display: block;
+
   border-radius: 50%;
 
   fill: var(--icon-color);
