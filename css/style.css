@@ -433,16 +433,16 @@ address {
   border-radius: 50%;
 
   fill: var(--icon-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .team-social-link:hover,
 .team-social-link:focus {
   background-color: var(--accent-color);
   fill: var(--white-color);
-}
-
-.team-social-icon {
-  margin: 12px;
 }
 
 /* Клиенты */
