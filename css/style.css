@@ -427,16 +427,16 @@ address {
 }
 
 .team-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
   width: 44px;
   height: 44px;
   display: block;
   border-radius: 50%;
 
   fill: var(--icon-color);
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .team-social-link:hover,
